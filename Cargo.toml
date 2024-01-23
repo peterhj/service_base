@@ -1,0 +1,15 @@
+[package]
+name = "service_base"
+version = "0.1.0-devel"
+edition = "2018"
+authors = ["Peter Jin"]
+
+[dependencies]
+byteorder = { path = "../byteorder" }
+constant_time_eq = { path = "../constant_time_eq" }
+http1 = { path = "../http1" }
+once_cell = { path = "../once_cell" }
+rustc_serialize = { path = "../rustc_serialize" }
+signal_hook = { path = "../signal_hook" }
+smol_str = { path = "../smol_str", default-features = false }
+unix2 = { path = "../unix2" }
